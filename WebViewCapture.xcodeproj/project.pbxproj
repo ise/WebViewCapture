@@ -17,6 +17,7 @@
 		78FC61CC16A16CBA0028F497 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78FC61AC16A16CBA0028F497 /* Cocoa.framework */; };
 		78FC61D416A16CBA0028F497 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78FC61D216A16CBA0028F497 /* InfoPlist.strings */; };
 		78FC61D716A16CBA0028F497 /* WebViewCaptureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FC61D616A16CBA0028F497 /* WebViewCaptureTests.m */; };
+		78FC61E116A16E580028F497 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78FC61E016A16E580028F497 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		78FC61D316A16CBA0028F497 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		78FC61D516A16CBA0028F497 /* WebViewCaptureTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewCaptureTests.h; sourceTree = "<group>"; };
 		78FC61D616A16CBA0028F497 /* WebViewCaptureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewCaptureTests.m; sourceTree = "<group>"; };
+		78FC61E016A16E580028F497 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78FC61E116A16E580028F497 /* WebKit.framework in Frameworks */,
 				78FC61AD16A16CBA0028F497 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -75,6 +78,7 @@
 		78FC619D16A16CBA0028F497 = {
 			isa = PBXGroup;
 			children = (
+				78FC61E016A16E580028F497 /* WebKit.framework */,
 				78FC61B216A16CBA0028F497 /* WebViewCapture */,
 				78FC61CF16A16CBA0028F497 /* WebViewCaptureTests */,
 				78FC61AB16A16CBA0028F497 /* Frameworks */,
