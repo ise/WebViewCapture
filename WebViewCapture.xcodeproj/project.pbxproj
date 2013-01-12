@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78FC61AD16A16CBA0028F497 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78FC61AC16A16CBA0028F497 /* Cocoa.framework */; };
+		78FC61B716A16CBA0028F497 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78FC61B516A16CBA0028F497 /* InfoPlist.strings */; };
+		78FC61B916A16CBA0028F497 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FC61B816A16CBA0028F497 /* main.m */; };
+		78FC61BD16A16CBA0028F497 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 78FC61BB16A16CBA0028F497 /* Credits.rtf */; };
+		78FC61C016A16CBA0028F497 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FC61BF16A16CBA0028F497 /* AppDelegate.m */; };
+		78FC61C316A16CBA0028F497 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78FC61C116A16CBA0028F497 /* MainMenu.xib */; };
+		78FC61CB16A16CBA0028F497 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78FC61CA16A16CBA0028F497 /* SenTestingKit.framework */; };
+		78FC61CC16A16CBA0028F497 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78FC61AC16A16CBA0028F497 /* Cocoa.framework */; };
+		78FC61D416A16CBA0028F497 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78FC61D216A16CBA0028F497 /* InfoPlist.strings */; };
+		78FC61D716A16CBA0028F497 /* WebViewCaptureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FC61D616A16CBA0028F497 /* WebViewCaptureTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78FC61CD16A16CBA0028F497 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78FC619F16A16CBA0028F497 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78FC61A716A16CBA0028F497;
+			remoteInfo = WebViewCapture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78FC61A816A16CBA0028F497 /* WebViewCapture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebViewCapture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78FC61AC16A16CBA0028F497 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		78FC61AF16A16CBA0028F497 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		78FC61B016A16CBA0028F497 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		78FC61B116A16CBA0028F497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		78FC61B416A16CBA0028F497 /* WebViewCapture-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebViewCapture-Info.plist"; sourceTree = "<group>"; };
+		78FC61B616A16CBA0028F497 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		78FC61B816A16CBA0028F497 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78FC61BA16A16CBA0028F497 /* WebViewCapture-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebViewCapture-Prefix.pch"; sourceTree = "<group>"; };
+		78FC61BC16A16CBA0028F497 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		78FC61BE16A16CBA0028F497 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		78FC61BF16A16CBA0028F497 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		78FC61C216A16CBA0028F497 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		78FC61C916A16CBA0028F497 /* WebViewCaptureTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebViewCaptureTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78FC61CA16A16CBA0028F497 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		78FC61D116A16CBA0028F497 /* WebViewCaptureTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebViewCaptureTests-Info.plist"; sourceTree = "<group>"; };
+		78FC61D316A16CBA0028F497 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		78FC61D516A16CBA0028F497 /* WebViewCaptureTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewCaptureTests.h; sourceTree = "<group>"; };
+		78FC61D616A16CBA0028F497 /* WebViewCaptureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewCaptureTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78FC61A516A16CBA0028F497 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78FC61AD16A16CBA0028F497 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78FC61C516A16CBA0028F497 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78FC61CB16A16CBA0028F497 /* SenTestingKit.framework in Frameworks */,
+				78FC61CC16A16CBA0028F497 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78FC619D16A16CBA0028F497 = {
+			isa = PBXGroup;
+			children = (
+				78FC61B216A16CBA0028F497 /* WebViewCapture */,
+				78FC61CF16A16CBA0028F497 /* WebViewCaptureTests */,
+				78FC61AB16A16CBA0028F497 /* Frameworks */,
+				78FC61A916A16CBA0028F497 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78FC61A916A16CBA0028F497 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78FC61A816A16CBA0028F497 /* WebViewCapture.app */,
+				78FC61C916A16CBA0028F497 /* WebViewCaptureTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78FC61AB16A16CBA0028F497 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78FC61AC16A16CBA0028F497 /* Cocoa.framework */,
+				78FC61CA16A16CBA0028F497 /* SenTestingKit.framework */,
+				78FC61AE16A16CBA0028F497 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78FC61AE16A16CBA0028F497 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78FC61AF16A16CBA0028F497 /* AppKit.framework */,
+				78FC61B016A16CBA0028F497 /* CoreData.framework */,
+				78FC61B116A16CBA0028F497 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		78FC61B216A16CBA0028F497 /* WebViewCapture */ = {
+			isa = PBXGroup;
+			children = (
+				78FC61BE16A16CBA0028F497 /* AppDelegate.h */,
+				78FC61BF16A16CBA0028F497 /* AppDelegate.m */,
+				78FC61C116A16CBA0028F497 /* MainMenu.xib */,
+				78FC61B316A16CBA0028F497 /* Supporting Files */,
+			);
+			path = WebViewCapture;
+			sourceTree = "<group>";
+		};
+		78FC61B316A16CBA0028F497 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78FC61B416A16CBA0028F497 /* WebViewCapture-Info.plist */,
+				78FC61B516A16CBA0028F497 /* InfoPlist.strings */,
+				78FC61B816A16CBA0028F497 /* main.m */,
+				78FC61BA16A16CBA0028F497 /* WebViewCapture-Prefix.pch */,
+				78FC61BB16A16CBA0028F497 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78FC61CF16A16CBA0028F497 /* WebViewCaptureTests */ = {
+			isa = PBXGroup;
+			children = (
+				78FC61D516A16CBA0028F497 /* WebViewCaptureTests.h */,
+				78FC61D616A16CBA0028F497 /* WebViewCaptureTests.m */,
+				78FC61D016A16CBA0028F497 /* Supporting Files */,
+			);
+			path = WebViewCaptureTests;
+			sourceTree = "<group>";
+		};
+		78FC61D016A16CBA0028F497 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78FC61D116A16CBA0028F497 /* WebViewCaptureTests-Info.plist */,
+				78FC61D216A16CBA0028F497 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78FC61A716A16CBA0028F497 /* WebViewCapture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78FC61DA16A16CBA0028F497 /* Build configuration list for PBXNativeTarget "WebViewCapture" */;
+			buildPhases = (
+				78FC61A416A16CBA0028F497 /* Sources */,
+				78FC61A516A16CBA0028F497 /* Frameworks */,
+				78FC61A616A16CBA0028F497 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebViewCapture;
+			productName = WebViewCapture;
+			productReference = 78FC61A816A16CBA0028F497 /* WebViewCapture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78FC61C816A16CBA0028F497 /* WebViewCaptureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78FC61DD16A16CBA0028F497 /* Build configuration list for PBXNativeTarget "WebViewCaptureTests" */;
+			buildPhases = (
+				78FC61C416A16CBA0028F497 /* Sources */,
+				78FC61C516A16CBA0028F497 /* Frameworks */,
+				78FC61C616A16CBA0028F497 /* Resources */,
+				78FC61C716A16CBA0028F497 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78FC61CE16A16CBA0028F497 /* PBXTargetDependency */,
+			);
+			name = WebViewCaptureTests;
+			productName = WebViewCaptureTests;
+			productReference = 78FC61C916A16CBA0028F497 /* WebViewCaptureTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78FC619F16A16CBA0028F497 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Masaaki Takeuchi";
+			};
+			buildConfigurationList = 78FC61A216A16CBA0028F497 /* Build configuration list for PBXProject "WebViewCapture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 78FC619D16A16CBA0028F497;
+			productRefGroup = 78FC61A916A16CBA0028F497 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78FC61A716A16CBA0028F497 /* WebViewCapture */,
+				78FC61C816A16CBA0028F497 /* WebViewCaptureTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78FC61A616A16CBA0028F497 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78FC61B716A16CBA0028F497 /* InfoPlist.strings in Resources */,
+				78FC61BD16A16CBA0028F497 /* Credits.rtf in Resources */,
+				78FC61C316A16CBA0028F497 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78FC61C616A16CBA0028F497 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78FC61D416A16CBA0028F497 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		78FC61C716A16CBA0028F497 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78FC61A416A16CBA0028F497 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78FC61B916A16CBA0028F497 /* main.m in Sources */,
+				78FC61C016A16CBA0028F497 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78FC61C416A16CBA0028F497 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78FC61D716A16CBA0028F497 /* WebViewCaptureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78FC61CE16A16CBA0028F497 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78FC61A716A16CBA0028F497 /* WebViewCapture */;
+			targetProxy = 78FC61CD16A16CBA0028F497 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78FC61B516A16CBA0028F497 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78FC61B616A16CBA0028F497 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		78FC61BB16A16CBA0028F497 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78FC61BC16A16CBA0028F497 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		78FC61C116A16CBA0028F497 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78FC61C216A16CBA0028F497 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		78FC61D216A16CBA0028F497 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78FC61D316A16CBA0028F497 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78FC61D816A16CBA0028F497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		78FC61D916A16CBA0028F497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		78FC61DB16A16CBA0028F497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebViewCapture/WebViewCapture-Prefix.pch";
+				INFOPLIST_FILE = "WebViewCapture/WebViewCapture-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		78FC61DC16A16CBA0028F497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebViewCapture/WebViewCapture-Prefix.pch";
+				INFOPLIST_FILE = "WebViewCapture/WebViewCapture-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		78FC61DE16A16CBA0028F497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WebViewCapture.app/Contents/MacOS/WebViewCapture";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebViewCapture/WebViewCapture-Prefix.pch";
+				INFOPLIST_FILE = "WebViewCaptureTests/WebViewCaptureTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		78FC61DF16A16CBA0028F497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WebViewCapture.app/Contents/MacOS/WebViewCapture";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebViewCapture/WebViewCapture-Prefix.pch";
+				INFOPLIST_FILE = "WebViewCaptureTests/WebViewCaptureTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78FC61A216A16CBA0028F497 /* Build configuration list for PBXProject "WebViewCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78FC61D816A16CBA0028F497 /* Debug */,
+				78FC61D916A16CBA0028F497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78FC61DA16A16CBA0028F497 /* Build configuration list for PBXNativeTarget "WebViewCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78FC61DB16A16CBA0028F497 /* Debug */,
+				78FC61DC16A16CBA0028F497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		78FC61DD16A16CBA0028F497 /* Build configuration list for PBXNativeTarget "WebViewCaptureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78FC61DE16A16CBA0028F497 /* Debug */,
+				78FC61DF16A16CBA0028F497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78FC619F16A16CBA0028F497 /* Project object */;
+}
