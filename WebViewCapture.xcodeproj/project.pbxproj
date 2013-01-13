@@ -18,6 +18,7 @@
 		78FC61D416A16CBA0028F497 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78FC61D216A16CBA0028F497 /* InfoPlist.strings */; };
 		78FC61D716A16CBA0028F497 /* WebViewCaptureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FC61D616A16CBA0028F497 /* WebViewCaptureTests.m */; };
 		78FC61E116A16E580028F497 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78FC61E016A16E580028F497 /* WebKit.framework */; };
+		78FC61E716A2CCEE0028F497 /* Entry.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FC61E616A2CCEE0028F497 /* Entry.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		78FC61D516A16CBA0028F497 /* WebViewCaptureTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewCaptureTests.h; sourceTree = "<group>"; };
 		78FC61D616A16CBA0028F497 /* WebViewCaptureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewCaptureTests.m; sourceTree = "<group>"; };
 		78FC61E016A16E580028F497 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		78FC61E516A2CCEE0028F497 /* Entry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entry.h; sourceTree = "<group>"; };
+		78FC61E616A2CCEE0028F497 /* Entry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entry.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				78FC61BF16A16CBA0028F497 /* AppDelegate.m */,
 				78FC61C116A16CBA0028F497 /* MainMenu.xib */,
 				78FC61B316A16CBA0028F497 /* Supporting Files */,
+				78FC61E516A2CCEE0028F497 /* Entry.h */,
+				78FC61E616A2CCEE0028F497 /* Entry.m */,
 			);
 			path = WebViewCapture;
 			sourceTree = "<group>";
@@ -267,6 +272,7 @@
 			files = (
 				78FC61B916A16CBA0028F497 /* main.m in Sources */,
 				78FC61C016A16CBA0028F497 /* AppDelegate.m in Sources */,
+				78FC61E716A2CCEE0028F497 /* Entry.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

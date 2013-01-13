@@ -12,6 +12,6 @@
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
-@property (retain, nonatomic) IBOutlet WebView *webView;
+@property (strong) IBOutlet WebView *webView;
 
 @end
