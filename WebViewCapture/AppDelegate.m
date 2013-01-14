@@ -79,7 +79,7 @@ NSMutableArray *_entries;
 
 - (void)_saveCaptureImage:(WebView *)view
 {
-    [NSThread sleepForTimeInterval:5.0];
+    [NSThread sleepForTimeInterval:10.0];
     NSView *target = [[[view mainFrame] frameView] documentView];
     NSBitmapImageRep *bitmap = [target bitmapImageRepForCachingDisplayInRect:[target bounds]];
     [target cacheDisplayInRect:[target bounds] toBitmapImageRep:bitmap];

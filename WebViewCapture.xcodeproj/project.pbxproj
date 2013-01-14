@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		785350F416A40C740065ADC1 /* saturator_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 785350F316A40C740065ADC1 /* saturator_logo.png */; };
+		785350F616A411860065ADC1 /* saturator_logo.icns in Resources */ = {isa = PBXBuildFile; fileRef = 785350F516A411860065ADC1 /* saturator_logo.icns */; };
 		78FC61AD16A16CBA0028F497 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78FC61AC16A16CBA0028F497 /* Cocoa.framework */; };
 		78FC61B716A16CBA0028F497 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78FC61B516A16CBA0028F497 /* InfoPlist.strings */; };
 		78FC61B916A16CBA0028F497 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FC61B816A16CBA0028F497 /* main.m */; };
@@ -32,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		785350F316A40C740065ADC1 /* saturator_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saturator_logo.png; sourceTree = "<group>"; };
+		785350F516A411860065ADC1 /* saturator_logo.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = saturator_logo.icns; sourceTree = "<group>"; };
 		78FC61A816A16CBA0028F497 /* WebViewCapture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebViewCapture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78FC61AC16A16CBA0028F497 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		78FC61AF16A16CBA0028F497 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -81,6 +85,8 @@
 		78FC619D16A16CBA0028F497 = {
 			isa = PBXGroup;
 			children = (
+				785350F516A411860065ADC1 /* saturator_logo.icns */,
+				785350F316A40C740065ADC1 /* saturator_logo.png */,
 				78FC61E016A16E580028F497 /* WebKit.framework */,
 				78FC61B216A16CBA0028F497 /* WebViewCapture */,
 				78FC61CF16A16CBA0028F497 /* WebViewCaptureTests */,
@@ -236,6 +242,8 @@
 				78FC61B716A16CBA0028F497 /* InfoPlist.strings in Resources */,
 				78FC61BD16A16CBA0028F497 /* Credits.rtf in Resources */,
 				78FC61C316A16CBA0028F497 /* MainMenu.xib in Resources */,
+				785350F416A40C740065ADC1 /* saturator_logo.png in Resources */,
+				785350F616A411860065ADC1 /* saturator_logo.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +464,7 @@
 				78FC61DC16A16CBA0028F497 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78FC61DD16A16CBA0028F497 /* Build configuration list for PBXNativeTarget "WebViewCaptureTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +473,7 @@
 				78FC61DF16A16CBA0028F497 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
